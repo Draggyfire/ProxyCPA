@@ -10,7 +10,7 @@ public class ProxyBarman implements IBarman{
         if(c.estMajeur()){
             b.servir(c);
         }else {
-            System.out.println("Désolé tu est mineur");
+            System.out.println("Désolé "+c.getNom() +" tu es mineur");
         }
     }
 }

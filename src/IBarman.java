@@ -1,3 +1,3 @@
 public interface IBarman {
-    public void servir(Client c);
+    void servir(Client c);
 }

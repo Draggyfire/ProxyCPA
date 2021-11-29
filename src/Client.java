@@ -11,4 +11,12 @@ public class Client {
     public boolean estMajeur(){
         return age >=18;
     }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getNom() {
+        return nom;
+    }
 }
